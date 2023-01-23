@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker&family=Karla:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Blinker', sans-serif;
+    font-weight: 300;
+}
+
+html{
+    font-size: 62.5%;
+
+}
+
+.main_div{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgba(183, 248, 234, 0.858);
+
+}
+
+.inner_div{
+    width: 40vw;
+    background-color: #fff;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+
+}
+
+.inner_div li{
+
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    list-style: none;
+    font-family: 'Karla', sans-serif;
+
+    
+}
+
+h2{
+    font-size: 3rem;
+}
+
+.answer{
+    cursor: pointer;
+}
+
+#submit{
+    padding: 1rem 2rem;
+    outline: none;
+    font-size: 2rem;
+    font-size: 400;
+    display: block;
+    border: none;
+    margin: auto;
+    text-transform: uppercase;
+    margin-top: 4rem;
+    background-color: rgba(31, 100, 69, 0.817);
+    cursor: pointer;
+
+    color: #fff;
+    
+}
+
+#submit:hover{
+    background-color:rgb(31, 100, 69); 
+}
+
+#showScore{
+    background-color:aliceblue;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+}
+
+#showScore h3{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#showScore .btn{
+    margin-top: 2rem;
+    background-color:rgba(31, 100, 69, 0.817) ;
+    color: #fff;
+    text-align: center;
+    padding: 5px 16px;
+    justify-content: center;
+    margin-left: 9rem;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+#showScore .btn:hover{
+    
+    background-color:rgb(31, 100, 69) ;
+    color: #fff;
+    
+}
+
+
+
+.showArea{
+    display: none;
+}
+
+
+
+
+
+
