@@ -88,16 +88,15 @@ h2{
 }
 
 #showScore .btn{
-    margin-top: 2rem;
+  margin-top: 2rem;
     background-color:rgba(31, 100, 69, 0.817) ;
     color: #fff;
-    text-align: center;
     padding: 5px 16px;
-    justify-content: center;
-    margin-left: 9rem;
     font-size: large;
     cursor: pointer;
     border-radius: 1rem;
+    display: block;
+    margin: auto;
 }
 
 #showScore .btn:hover{
